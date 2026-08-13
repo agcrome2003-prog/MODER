@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "main": {
+      "type": "animated-auth",
+      "settings": {}
+    }
+  },
+  "order": ["main"]
+}
