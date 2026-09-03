@@ -42,9 +42,13 @@ que la marca del canal y el contenido se vean como una sola cosa desde el primer
 - **Elegida:** primer plano de Uma, sonriendo y saludando a cámara, fondo degradado
   coral-naranja a amarillo (mismos colores del nombre "Coral" → nombre e imagen refuerzan
   la misma idea de marca).
-  - Imagen final (4K, lista para subir): https://d8j0ntlcm91z4.cloudfront.net/user_3HpearYMVAw2uXHmTqs3brJxqg1/hf_20260903_173420_ae9f60f4-c5c2-4545-97ff-2415481713b2.png
+  - **Archivo final, listo para subir en YouTube Studio → Personalización → Marca →
+    Imagen:** https://d2ol7oe51mr4n9.cloudfront.net/user_3HpearYMVAw2uXHmTqs3brJxqg1/05f49d71-83bf-4d58-9d28-128893bddb20.png
+    — PNG, 1600×1600, no animado, ~3.0 MB (bajo el límite de 4 MB que pide YouTube).
+    Se ajustó a partir de la versión 4K para cumplir ese límite de peso sin perder nitidez
+    (1600×1600 sigue muy por encima del mínimo que pide YouTube).
   - `job_id` (versión 1K, previa al escalado): `b47bee6d-b44d-41d5-b212-5fdb4d41d3c9`
-  - `job_id` (versión final escalada a 4K): `ae9f60f4-c5c2-4545-97ff-2415481713b2`
+  - `job_id` (versión escalada a 4K, fuente del archivo final): `ae9f60f4-c5c2-4545-97ff-2415481713b2`
 - **Por qué esta y no las otras dos:** para un avatar de canal (se ve tan chico como
   16–48px en buscador, suscripciones, comentarios) lo que más engancha es un gesto claro
   e inequívoco. El saludo con la mano + sonrisa abierta + mirada directa a cámara es el
@@ -68,10 +72,36 @@ Uma):
 - Estilo (Colorful 3D, `style_key_job_id`): `da2b22ee-aec8-45d0-b395-b48085f45a02`
 - Personaje (Uma, `job_id`): `4c42af6a-e5f7-4334-8657-68835887c062`
 
+## Banner del canal
+
+- **Archivo final, listo para subir en YouTube Studio → Personalización → Marca →
+  Imagen de banner:** https://d2ol7oe51mr4n9.cloudfront.net/user_3HpearYMVAw2uXHmTqs3brJxqg1/2991ceb3-fd1e-4608-beff-fba1806346d5.png
+  — PNG, exactamente 2048×1152 (la medida que recomienda YouTube), ~2.4 MB (bajo el
+  límite de 6 MB).
+- **Escena:** Bahía Coral a la hora dorada — Uma saludando con una gran sonrisa a la
+  izquierda, Bibo abrazado a Ocho y Mora asomando del agua a la derecha, cielo despejado
+  degradado de coral-naranja a celeste. El tercio central queda deliberadamente limpio
+  (sin personajes cruzándolo) para que el texto se lea bien incluso en pantallas donde
+  YouTube recorta los bordes.
+- **Texto superpuesto** (agregado aparte con tipografía real, no generado por IA, para
+  que no queden letras deformadas): título "**Uma Coral**" + debajo, más chico,
+  "Aventuras en Bahía Coral" — ambos centrados dentro del área seguros de YouTube
+  (1235×338 centrados), en blanco/amarillo suave con borde azul oscuro para que
+  se lean bien encima de cualquier fondo.
+- `job_id` de la escena elegida (1K, antes de escalar): `15774e38-717c-4c94-8c03-5c1bfc876688`
+- `job_id` de la escena escalada a 4K (fuente del banner final): `43993568-b647-4844-978f-64e96a8cfd27`
+- **Otra escena generada y descartada** (Uma saltando en el centro, mediodía, fondo
+  coral-rosa/amarillo) — se prefirió la primera porque Uma queda más protagonista y los
+  colores del cielo combinan más con los del avatar:
+  https://d8j0ntlcm91z4.cloudfront.net/user_3HpearYMVAw2uXHmTqs3brJxqg1/hf_20260903_173947_073e9c27-48e7-4c1f-a636-bb877ebf6e20.png
+- Referencias usadas para la escena (mismo estilo/personajes que el resto de la
+  producción): estilo `da2b22ee-aec8-45d0-b395-b48085f45a02`, ubicación `loc_orilla`
+  `966322a7-96f8-465c-8966-17f65f641f4a`, Uma `4c42af6a-e5f7-4334-8657-68835887c062`,
+  Bibo `7c54c0d5-fb70-4b47-899e-78144d657d69`, Mora `c3b0e1b4-5ee7-465f-888b-fefe66a9237d`,
+  Ocho `453d86a6-34d0-460f-a13c-e3d781066712`.
+
 ## Siguiente paso posible
 
-No se generó todavía el banner/arte de cabecera del canal (el elemento ancho que se ve
-arriba de la página del canal) — se priorizó la foto de perfil porque es la imagen que de
-verdad viaja con cada video (buscador, sugeridos, comentarios). Si se quiere también un
-banner con Uma, Bibo y Mora en Bahía Coral y el nombre del canal en texto, se puede hacer
-en una pasada aparte, reusando estos mismos `job_id` de estilo y personajes.
+Con el nombre, la foto de perfil y el banner listos, la identidad del canal está
+completa. Lo que queda pendiente de toda la serie es el episodio largo (~7-8 min) con el
+mismo estilo y voz — se puede retomar cuando se pida.
