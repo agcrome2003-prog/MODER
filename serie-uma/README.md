@@ -12,7 +12,8 @@ serie-uma/
 ├── personajes/
 │   └── referencias.md                # Prompts + vistas previas de Uma y Bibo (Higgsfield)
 ├── canal/
-│   └── identidad-canal.md            # Nombre del canal (Uma Coral) + foto de perfil
+│   ├── identidad-canal.md            # Nombre del canal (Uma Coral) + foto de perfil + banner
+│   └── guia-lanzamiento-canal.md     # Descripción, palabras clave, ajustes y consejos de crecimiento
 └── episodio-01-el-reino-de-los-charcos/
     ├── guion-largo.md                # Episodio completo, ~7 min, formato guion
     ├── guion-corto-short.md          # Recorte <60s del mismo episodio, 9:16
