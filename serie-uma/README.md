@@ -11,10 +11,13 @@ serie-uma/
 ├── 00-biblia-de-la-serie.md          # Mundo, personajes, guía de estilo — LEER PRIMERO
 ├── personajes/
 │   └── referencias.md                # Prompts + vistas previas de Uma y Bibo (Higgsfield)
+├── canal/
+│   └── identidad-canal.md            # Nombre del canal (Uma Coral) + foto de perfil
 └── episodio-01-el-reino-de-los-charcos/
     ├── guion-largo.md                # Episodio completo, ~7 min, formato guion
     ├── guion-corto-short.md          # Recorte <60s del mismo episodio, 9:16
-    └── plan-produccion-higgsfield.md # Respuestas de intake + desglose en bloques de 10s
+    ├── plan-produccion-higgsfield.md # Respuestas de intake + desglose en bloques de 10s
+    └── short-produccion.md           # Registro de producción del Short ya publicado
 ```
 
 ## Cómo seguimos
