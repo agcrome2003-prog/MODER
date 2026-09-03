@@ -56,8 +56,45 @@ con más palabras (22–25) de las que este workflow recomienda por defecto para
 más palabras para llenar el mismo tiempo. Es una discrepancia menor del validador, no
 un problema del video.
 
+## Miniatura personalizada
+
+- **Archivo final, listo para subir como miniatura del Short:** https://d2ol7oe51mr4n9.cloudfront.net/user_3HpearYMVAw2uXHmTqs3brJxqg1/8457a4e9-8746-44c7-aa74-ac230fbad862.jpg
+  — JPEG, 1080×1920 (vertical, formato Shorts), ~338 KB.
+- **Concepto:** Bibo, aterrado, abraza a Ocho mirando el charco oscuro; dos ojos
+  brillantes lo espían apenas asomados bajo el agua (Mora, todavía sin revelar). Texto
+  superpuesto "¿AMIGO O MONSTRUO?" — la pregunta que resume el giro del video sin
+  spoilearlo, para generar curiosidad real (framework "Amplified Reality" +
+  "Posed Portrait" del workflow de miniaturas: la cara con emoción domina el cuadro y el
+  elemento de misterio está exagerado pero es fiel a lo que pasa en el video).
+- Render generado con `nano_banana_pro` a 4K (3072×5504) usando como referencia el estilo
+  Colorful 3D ya bloqueado y los diseños exactos de Bibo, Mora, Ocho y el charco — mismo
+  aspecto que el resto de la producción. Texto agregado aparte con el motor de tipografía
+  del workflow (estilo "Beast": blanco con borde negro grueso), no generado por IA, para
+  que se lea perfecto.
+  - `job_id` del render elegido (limpio, sin texto): `08e1176b-832b-41a0-8ca5-9b870c8ec754`
+- **Otra toma generada** (mismo concepto, primer plano más cerrado sobre la cara de
+  Bibo) — quedó disponible por si se prefiere esa composición:
+  https://d8j0ntlcm91z4.cloudfront.net/user_3HpearYMVAw2uXHmTqs3brJxqg1/hf_20260903_182523_07ac0c4c-5c36-4fd8-817b-d74cd9ab59b9.png
+  (`job_id`: `07ac0c4c-5c36-4fd8-817b-d74cd9ab59b9`, sin texto agregado todavía)
+
+## Descripción para el video (lista para copiar y pegar)
+
+```
+¿Amigo o monstruo? 😨🌊 Bibo no se anima a mirar el charco oscuro... hasta que descubre
+que "el monstruo" solo necesitaba un amigo. Un Short de Uma Coral sobre el miedo, la
+valentía y la amistad — dibujos animados para niños. 🐙
+
+Nuevas aventuras en Bahía Coral cada semana. ¡Suscribite y activá la campana! 🔔
+
+#Shorts #DibujosAnimados #CuentosParaNiños #UmaCoral
+```
+
+Estructura pensada para el algoritmo: `#Shorts` primero (ayuda a clasificarlo en el
+feed de Shorts), la pregunta-gancho y la palabra clave "dibujos animados para niños" en
+las primeras líneas, sin spoilear el final, y cierre con llamada a suscribirse.
+
 ## Siguiente paso posible
 
-No se generó una miniatura personalizada (workflow `thumbnail-generation`) — se usó el
-poster automático del ensamblador. Si querés una miniatura diseñada (título, texto,
-personajes en pose), lo puedo hacer en una pasada aparte.
+Con miniatura y descripción listas, este Short queda con todo lo necesario para subir.
+Lo que sigue pendiente de toda la serie es el episodio largo (~7-8 min) con el mismo
+estilo y voz.
